@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(243, 180, 63);
+} 
+
+.cabecalho{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 147, 8);
+    color: aliceblue;
+    padding: 10 xp; 
+} 
+ 
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 165, 0);
+} 
+
+nav a{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    margin: 0 50px;
+}
+
+nav a:hover{
+    color: antiquewhite;
+}
+
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    background-color: rgb(219, 144, 5);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.curriculo{
+    display: flex;
+}
+
+
+.curriculo-section-item{
+    height: 300px;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+.curriculo-section-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
