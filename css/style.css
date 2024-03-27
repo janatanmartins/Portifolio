@@ -49,15 +49,29 @@ footer{
 
 .curriculo{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.curriculo-section{
+    display: flex;
+    gap: 80px;
+
 }
 
 
 .curriculo-section-item{
-    height: 300px;
-    border-radius: 30px;
-    justify-content: space-around;
+    height:300px;
+    width: 550px;   
+    border-radius: 20px;
+
+
+
 }
 .curriculo-section-title{
+    display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: aliceblue;
+    color: aliceblue; 
+    justify-content: center;
 }
